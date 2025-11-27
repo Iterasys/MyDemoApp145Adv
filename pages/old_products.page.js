@@ -1,14 +1,5 @@
 class ProductsPage {
 
-  // Products
-//   const lbl_titulo_secao = await driver.$("accessibility id:title")
-//   let resultado_atual = await lbl_titulo_secao.getText() // Pega o texto do elemento
-//   await assert.strictEqual(resultado_atual, "Products")
- 
-  // Clicar na Mochila
-  //const lbl_clicar_mochila = await driver.$("-android uiautomator:new UiSelector().resourceId(\"com.saucelabs.mydemoapp.android:id/productIV\").instance(0)")
-  //await lbl_clicar_mochila.click()
-
     async selecionarProduto(produto) {
 
         // Ler e Selecionar todos os cartões de produto (productIV)
