@@ -1,5 +1,5 @@
 module.exports = class BasePage {
-    async arrastaParaCima(rolagem) {
+    async arrasta_para_cima(rolagem) {
         for (let i = 0; i < rolagem; i++){ 
            await driver.action('pointer')
                .move( { duration: 0, x: 500, y: 1800 } )
@@ -11,4 +11,5 @@ module.exports = class BasePage {
             await driver.pause(500)
         }  
     }
+
 }

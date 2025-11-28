@@ -15,3 +15,5 @@ class ProductsPage extends BasePage {
     }
 
 }
+
+module.exports = new ProductsPage()
