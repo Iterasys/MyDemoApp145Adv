@@ -5,3 +5,10 @@ Pixel 4a XL: 3140 --> X: 2326
 2160 * X = 5024000
 X = 5024000 / 2160
 X = 2326
+
+Adaptações para funcionar no Sauce Labs
+- Melhorias, porque funcionam também localmente
+1) Ajustes no After
+2) Melhoria no Arrasta para Cima: Mouse para Dedo
+3) Configuração para o Sauce Labs
+4) Entrar com as credencial via Terminal
